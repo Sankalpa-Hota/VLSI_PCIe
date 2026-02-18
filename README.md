@@ -2,7 +2,7 @@ PCIe Verilog Development
 
 This repository contains a custom PCI Express (PCIe) core development project implemented in Verilog HDL, focusing on understanding, simulating, and building the fundamental layers of the PCIe protocol stack — from the physical interface up to transaction-level packet handling. The aim is to design a lightweight, educational, and synthesizable PCIe endpoint architecture for FPGA or ASIC-based systems.
 
-🔧 Project Overview
+Project Overview
 
 This project walks through the modular design of a PCIe Endpoint Controller, built from the ground up in Verilog. Each layer is implemented as an independent, testable module, emphasizing protocol correctness, data integrity, and timing closure.
 
@@ -39,7 +39,7 @@ Handles configuration reads/writes from the root complex.
 Supports PCIe capability registers and device/vendor identification.
 
 
-🧠 Design Goals
+Design Goals
 
 Develop a fully synthesizable PCIe Endpoint core for FPGA prototyping.
 
@@ -49,24 +49,24 @@ Emphasize modular design, making it easier to plug in third-party PHY IP or cust
 
 Enable performance profiling for link training, latency, and throughput.
 
-🧩 Features (Planned / In Progress)
+Features (Planned / In Progress)
 
-✅ Link initialization and training FSM
+Link initialization and training FSM
 
-✅ DLLP ACK/NAK management
+DLLP ACK/NAK management
 
-⚙️ TLP header parser and generator
+TLP header parser and generator
 
-⚙️ Configuration space logic (Vendor ID, BAR registers)
+Configuration space logic (Vendor ID, BAR registers)
 
-⚙️ AXI-Stream bridge for user logic integration
+AXI-Stream bridge for user logic integration
 
-🔄 Full testbench with BFM (Bus Functional Model)
+Full testbench with BFM (Bus Functional Model)
 
-🧪 Behavioral simulation using ModelSim / Vivado Simulator
+Behavioral simulation using ModelSim / Vivado Simulator
 
 
-📘 Learning Focus
+Learning Focus
 
 This project is designed as a hands-on hardware learning initiative to deeply understand:
 
@@ -79,7 +79,7 @@ Timing closure and pipeline balancing in high-speed designs
 Integration of PCIe with custom logic or DMA engines
 
 
-🧰 Tools & Technologies
+Tools & Technologies
 
 Language: Verilog HDL
 
